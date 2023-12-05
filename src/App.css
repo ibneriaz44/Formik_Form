@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* Adjust margin as needed */
+}
+
+.registration-form-container {
+  width: 100%; /* Adjust the width as needed */
+  max-width: 600px; /* Increased max-width for better horizontal layout */
+  padding: 20px;
+  border: 5px solid #006400; /* Dark green border */
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding and border in the box model */
+}
+
+.registration-form {
+  display: flex; /* Change to flexbox layout */
+  flex-direction: column; /* Align items in a column */
+  gap: 15px;
+}
+
+/* New style for the first three form groups */
+.form-group-row {
+  display: flex;
+  gap: 15px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  
+}
+
+.label {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.form-control {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 3px solid #000;
+  font-size: 20px;
+}
+
+.gender-radio-group {
+  text-align: center;
+  font-size: 30px;
+}
+.h1 {
+  text-align: center;
+}
+.error{
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
